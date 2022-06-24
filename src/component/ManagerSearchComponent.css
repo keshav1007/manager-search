@@ -1,0 +1,36 @@
+.manager-search-dropdown {
+  width: 25rem;
+}
+
+.managers-list {
+  position: absolute;
+  width: inherit;
+  overflow-y: scroll;
+  height: 10rem;
+  border-bottom: 1px #eeeeee solid
+}
+
+.manager-list-item {
+  display: flex !important;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.manager-list-item:focus {
+  background-color: #ddd !important;
+}
+
+.avatar {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.managerDetails {
+  text-align: left;
+}
+
+.managerEmail {
+  font-size: 12px;
+}
